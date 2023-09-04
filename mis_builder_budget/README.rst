@@ -23,7 +23,7 @@ MIS Builder Budget
     :target: https://runbot.odoo-community.org/runbot/248/15.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
 Create budgets for MIS reports.
 
@@ -32,6 +32,12 @@ created for a given report template (ie one budget per year). Budget figures
 are provided by KPI or by GL account, with different time periods. A budget can
 then be selected as a data source for a MIS report column, and the report will
 show the budgeted values for each KPI, adjusted for the period of the column.
+
+为 MIS 报告创建预算。此模块允许您为任何 MIS 报告创建预算。可以为给定的报告模板创建多个预算（即每年一个预算）。
+
+预算数字由 KPI 或 GL 帐户提供，具有不同的时间段。
+
+然后可以选择预算作为 MIS 报告列的数据源，该报告将显示每个 KPI 的预算值，并针对该列的期间进行调整。
 
 **Table of contents**
 
@@ -218,7 +224,7 @@ promote its widespread use.
 
 Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-sbidoul| 
+|maintainer-sbidoul|
 
 This module is part of the `OCA/mis-builder <https://github.com/OCA/mis-builder/tree/15.0/mis_builder_budget>`_ project on GitHub.
 
